@@ -1,0 +1,10 @@
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/CMakeFiles/glad.dir
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/CMakeFiles/imgui.dir
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/CMakeFiles/Arkanoid.dir
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/glfw_binary/CMakeFiles/edit_cache.dir
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/glfw_binary/CMakeFiles/rebuild_cache.dir
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/glfw_binary/src/CMakeFiles/glfw.dir
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/glfw_binary/src/CMakeFiles/edit_cache.dir
+/Users/antonkoktysh/Desktop/pfg.gametest/cmake-build-debug/glfw_binary/src/CMakeFiles/rebuild_cache.dir

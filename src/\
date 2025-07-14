@@ -1,0 +1,43 @@
+#pragma once
+
+#include <vector>
+#include "arkanoid.h"
+
+struct Brick {
+    ImColor color = ImColor(0, 128, 0);
+    BrickType type;
+    Vect p_min{0, 0};
+    Vect p_max{0, 0};
+
+    Brick() = default;
+
+    Brick(Vect p_min, Vect p_max, BrickType type): p_min(p_min), p_max(p_max), type(type) {
+        switch (type) {
+            case BrickType::regular : color = ImColor(128, 12, 155); break;
+            case BrickType::strong : color = ImColor(255, 165, 0); break;
+            case BrickType::double_ball : color = ImColor(255, 12, 155); break;
+            case BrickType::move_down : color = ImColor(128, 12, 155); break;
+        }
+    }
+};
+/*
+struct Strong_Brick : Brick {
+    int hit_count = 0;
+
+    Strong_Brick(Vect p_min, Vect p_max): Brick(p_min, p_max) {
+        color = ImColor(128, 12, 255);
+    }
+};
+
+struct Double_Brick : Brick {
+    Double_Brick(Vect p_min, Vect p_max): Brick(p_min, p_max) {
+        color = ImColor(255, 165, 0);
+    }
+};
+
+struct Down_Move_Brick : Brick {
+    Down_Move_Brick(Vect p_min, Vect p_max): Brick(p_min, p_max) {
+        color = ImColor(0, 0, 255);
+    }
+};
+*/
