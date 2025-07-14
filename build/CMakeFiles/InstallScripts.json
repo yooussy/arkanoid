@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/dj-bob/arkanoid/build/cmake_install.cmake",
-		"/home/dj-bob/arkanoid/build/glfw_binary/cmake_install.cmake",
-		"/home/dj-bob/arkanoid/build/glfw_binary/src/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
